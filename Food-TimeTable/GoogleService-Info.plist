@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>705958031136-sp3cgro31su0nb9ih3fh3vac8qpa4mcd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.705958031136-sp3cgro31su0nb9ih3fh3vac8qpa4mcd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDg-5nwiSQIwmxQcxYTPfxmA7oUZKFC1dc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>705958031136</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Prakhar.Food-TimeTable</string>
+	<key>PROJECT_ID</key>
+	<string>food-timetable-7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>food-timetable-7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:705958031136:ios:0e72e9ffacd0950393b145</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SourceSerifPro-Regular.ttf</string>
+		<string>BungeeSpice-Regula</string>
+	</array>
+</dict>
+</plist>

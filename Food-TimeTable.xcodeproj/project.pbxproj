@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332C0B9928D4365200A23E08 /* FireStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0B9828D4365200A23E08 /* FireStoreManager.swift */; };
+		33327D9C28D5A0B5005143BC /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33327D9B28D5A0B5005143BC /* NotificationManager.swift */; };
+		333DA16828DB4F9900FE0B42 /* SourceSerifPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 333DA16728DB4F9900FE0B42 /* SourceSerifPro-Regular.ttf */; };
+		33FA8EDD28D3129800C19AC7 /* Food_TimeTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA8EDC28D3129800C19AC7 /* Food_TimeTableApp.swift */; };
+		33FA8EDF28D3129800C19AC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA8EDE28D3129800C19AC7 /* ContentView.swift */; };
+		33FA8EE128D3129800C19AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FA8EE028D3129800C19AC7 /* Assets.xcassets */; };
+		33FA8EE428D3129800C19AC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FA8EE328D3129800C19AC7 /* Preview Assets.xcassets */; };
+		33FA8EEB28D312CC00C19AC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33FA8EEA28D312CC00C19AC7 /* GoogleService-Info.plist */; };
+		33FA8EEE28D34AD400C19AC7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 33FA8EED28D34AD400C19AC7 /* FirebaseFirestore */; };
+		33FA8EF128D34D0F00C19AC7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 33FA8EF028D34D0F00C19AC7 /* FirebaseAuth */; };
+		33FA8EF328D34D0F00C19AC7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 33FA8EF228D34D0F00C19AC7 /* FirebaseFirestore */; };
+		33FA8EF528D34D0F00C19AC7 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 33FA8EF428D34D0F00C19AC7 /* FirebaseFirestoreCombine-Community */; };
+		33FA8EF728D34D0F00C19AC7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 33FA8EF628D34D0F00C19AC7 /* FirebaseFirestoreSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		332C0B9828D4365200A23E08 /* FireStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreManager.swift; sourceTree = "<group>"; };
+		33327D9B28D5A0B5005143BC /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		333DA16728DB4F9900FE0B42 /* SourceSerifPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerifPro-Regular.ttf"; sourceTree = "<group>"; };
+		33FA8ED928D3129800C19AC7 /* Food-TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-TimeTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FA8EDC28D3129800C19AC7 /* Food_TimeTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TimeTableApp.swift; sourceTree = "<group>"; };
+		33FA8EDE28D3129800C19AC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33FA8EE028D3129800C19AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33FA8EE328D3129800C19AC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33FA8EEA28D312CC00C19AC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33FA8ED628D3129800C19AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FA8EF728D34D0F00C19AC7 /* FirebaseFirestoreSwift in Frameworks */,
+				33FA8EEE28D34AD400C19AC7 /* FirebaseFirestore in Frameworks */,
+				33FA8EF528D34D0F00C19AC7 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				33FA8EF128D34D0F00C19AC7 /* FirebaseAuth in Frameworks */,
+				33FA8EF328D34D0F00C19AC7 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332C0B9728D4363800A23E08 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				33327D9B28D5A0B5005143BC /* NotificationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		333DA16428DB4F6300FE0B42 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				333DA16728DB4F9900FE0B42 /* SourceSerifPro-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		33FA8ED028D3129800C19AC7 = {
+			isa = PBXGroup;
+			children = (
+				33FA8EDB28D3129800C19AC7 /* Food-TimeTable */,
+				33FA8EDA28D3129800C19AC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33FA8EDA28D3129800C19AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33FA8ED928D3129800C19AC7 /* Food-TimeTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33FA8EDB28D3129800C19AC7 /* Food-TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				333DA16428DB4F6300FE0B42 /* Fonts */,
+				332C0B9728D4363800A23E08 /* Manager */,
+				33FA8EDC28D3129800C19AC7 /* Food_TimeTableApp.swift */,
+				332C0B9828D4365200A23E08 /* FireStoreManager.swift */,
+				33FA8EDE28D3129800C19AC7 /* ContentView.swift */,
+				33FA8EE028D3129800C19AC7 /* Assets.xcassets */,
+				33FA8EEA28D312CC00C19AC7 /* GoogleService-Info.plist */,
+				33FA8EE228D3129800C19AC7 /* Preview Content */,
+			);
+			path = "Food-TimeTable";
+			sourceTree = "<group>";
+		};
+		33FA8EE228D3129800C19AC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33FA8EE328D3129800C19AC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33FA8ED828D3129800C19AC7 /* Food-TimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FA8EE728D3129800C19AC7 /* Build configuration list for PBXNativeTarget "Food-TimeTable" */;
+			buildPhases = (
+				33FA8ED528D3129800C19AC7 /* Sources */,
+				33FA8ED628D3129800C19AC7 /* Frameworks */,
+				33FA8ED728D3129800C19AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food-TimeTable";
+			packageProductDependencies = (
+				33FA8EED28D34AD400C19AC7 /* FirebaseFirestore */,
+				33FA8EF028D34D0F00C19AC7 /* FirebaseAuth */,
+				33FA8EF228D34D0F00C19AC7 /* FirebaseFirestore */,
+				33FA8EF428D34D0F00C19AC7 /* FirebaseFirestoreCombine-Community */,
+				33FA8EF628D34D0F00C19AC7 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Food-TimeTable";
+			productReference = 33FA8ED928D3129800C19AC7 /* Food-TimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33FA8ED128D3129800C19AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					33FA8ED828D3129800C19AC7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 33FA8ED428D3129800C19AC7 /* Build configuration list for PBXProject "Food-TimeTable" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33FA8ED028D3129800C19AC7;
+			packageReferences = (
+				33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				33FA8EEF28D34D0F00C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 33FA8EDA28D3129800C19AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33FA8ED828D3129800C19AC7 /* Food-TimeTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33FA8ED728D3129800C19AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FA8EE428D3129800C19AC7 /* Preview Assets.xcassets in Resources */,
+				33FA8EE128D3129800C19AC7 /* Assets.xcassets in Resources */,
+				333DA16828DB4F9900FE0B42 /* SourceSerifPro-Regular.ttf in Resources */,
+				33FA8EEB28D312CC00C19AC7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33FA8ED528D3129800C19AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332C0B9928D4365200A23E08 /* FireStoreManager.swift in Sources */,
+				33FA8EDF28D3129800C19AC7 /* ContentView.swift in Sources */,
+				33327D9C28D5A0B5005143BC /* NotificationManager.swift in Sources */,
+				33FA8EDD28D3129800C19AC7 /* Food_TimeTableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33FA8EE528D3129800C19AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33FA8EE628D3129800C19AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33FA8EE828D3129800C19AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food-TimeTable/Preview Content\"";
+				DEVELOPMENT_TEAM = 4285Q8GQW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.Food-TimeTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33FA8EE928D3129800C19AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food-TimeTable/Preview Content\"";
+				DEVELOPMENT_TEAM = 4285Q8GQW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.Food-TimeTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33FA8ED428D3129800C19AC7 /* Build configuration list for PBXProject "Food-TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FA8EE528D3129800C19AC7 /* Debug */,
+				33FA8EE628D3129800C19AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33FA8EE728D3129800C19AC7 /* Build configuration list for PBXNativeTarget "Food-TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FA8EE828D3129800C19AC7 /* Debug */,
+				33FA8EE928D3129800C19AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		33FA8EEF28D34D0F00C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33FA8EED28D34AD400C19AC7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		33FA8EF028D34D0F00C19AC7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		33FA8EF228D34D0F00C19AC7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		33FA8EF428D34D0F00C19AC7 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		33FA8EF628D34D0F00C19AC7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33FA8EEC28D34AD400C19AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 33FA8ED128D3129800C19AC7 /* Project object */;
+}
